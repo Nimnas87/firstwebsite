@@ -1,0 +1,167 @@
+#product-overview {
+  background: url("smileforme.jpg") center/cover no-repeat border-box #ff1b68;
+  width: 100vw;
+  height: 60vh;
+  margin-top: 3.5rem;
+  position: relative;
+}
+#product-overview h1 {
+  color: black;
+  font-family: "Fruktur", cursive;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 40rem) {
+  #product-overview {
+    height: 60vh;
+    background-position: 50% 25%;
+  }
+  #product-overview h1 {
+    font-size: 3rem;
+  }
+}
+.article-plan {
+  background: #95b99b;
+  text-align: center;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+
+.section-title {
+  color: blue;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+.bonus_point {
+  background: green;
+  color: white;
+  padding: 0.5rem;
+
+  border-radius: 8px;
+}
+.plan_title {
+  color: Red;
+  font-family: sans-serif;
+}
+.plan_price {
+  color: white;
+}
+.planlist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.bonus {
+  background: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+@media (min-width: 40rem) {
+  .fancy {
+    display: inline-block;
+    width: 30%;
+    max-width: 25rem;
+    vertical-align: top;
+  }
+  .plan {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .article-plan {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    min-width: 13rem;
+    max-width: 20rem;
+  }
+  .bonus_point {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  }
+}
+#sectionkey {
+  background: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+#sectionkey .section-title {
+  color: white;
+  margin: 32px;
+}
+.keyimage {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+  padding: 1.5rem;
+}
+.planlist1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.fancyme {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: white;
+}
+.modal {
+  position: fixed;
+  display: none;
+  z-index: 200;
+  top: 20%;
+  left: 30%;
+  width: 40%;
+  background: white;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.modal__title {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.modal__actions {
+  text-align: center;
+}
+
+.modal__action {
+  border: 1px solid #0e4f1f;
+  background: #0e4f1f;
+  text-decoration: none;
+  color: white;
+  font: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.modal__action:hover,
+.modal__action:active {
+  background: #2ddf5c;
+  border-color: #2ddf5c;
+}
+
+.modal__action--negative {
+  background: red;
+  border-color: red;
+}
+
+.modal__action--negative:hover,
+.modal__action--negative:active {
+  background: #ff5454;
+  border-color: #ff5454;
+}
